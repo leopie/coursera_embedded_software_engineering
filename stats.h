@@ -31,86 +31,86 @@
 /**
  * @brief Prints all statistics for given array
  *
- * Prints all statistic for a given array, including minimum, maximum, mean and median
+ * This function takes as input a pointer to a char array and calculates on it the minimum, the maximum, the mean and the median, and prints all this values to the screan.
  *
- * @param array pointer to an array of chars
- * @param length size of the char array 
+ * @param pointer to an array of chars
+ * @param length of the char array 
  *
  * @return void
  */
-void print_statistic(char * array);
+void print_statistic(unsigned char * array);
 
 /**
  * @brief Prints the given array
  *
- * Prints the given array of chars to the screen
+ * This function takes as input a pointer to a char array and prints its values to the screen
  *
- * @param array pointer to an array of chars
- * @param length size of the char array 
+ * @param pointer to an array of chars
+ * @param length of the char array 
  *
  * @return void
  */
-void print_array(char * array, int length);
+void print_array(unsigned char * array, unsigned int length);
 
 /**
  * @brief Find the mean
  *
- * Find the mean for the given array of chars
+ * This function takes as input a pointer to a char array and its length and find the mean for the given array of chars
  *
- * @param array pointer to an array of chars
- * @param length size of the char array 
+ * @param pointer to an array of chars
+ * @param length of the char array 
  *
  * @return mean of all the values of the char array
  */
-char find_mean(char * array, int length);
+unsigned char find_mean(unsigned char * array, unsigned int length);
 
 /**
  * @brief Find the median
  *
- * Find the median for the given array of chars
+ * This function takes as input a pointer to a char array and its length and find the median for the given array of chars
  *
- * @param array pointer to an array of chars
- * @param length size of the char array 
+ * @param pointer to an array of chars
+ * @param length of the char array 
  *
  * @return median of all the values of the char array
  */
-char find_median(char * array, int length);
+unsigned char find_median(unsigned char * array, unsigned int length);
 
 /**
  * @brief Find the minimum
  *
- * Find the minimum for the given array of chars
+ * This function takes as input a pointer to a char array and its length and find the minimum for the given array of chars
  *
- * @param array pointer to an array of chars
- * @param length size of the char array 
+ * @param pointer to an array of chars
+ * @param length of the char array 
  *
  * @return minimum value of the char array
  */
-char find_minimum(char * array, int length);
+unsigned char find_minimum(unsigned char * array, unsigned int length);
 
 /**
  * @brief Find the maximum 
  * 
- * Find the maximum for the given array of chars
+ * This function takes as input a pointer to a char array and its length and find the maximum for the given array of chars
  *
- * @param array pointer to an array of chars
- * @param length size of the char array 
+ * @param pointer to an array of chars
+ * @param length of the char array 
  *
  * @return the maximum value of the char array
  */
-char find_maximum(char * array, int length);
+unsigned char find_maximum(unsigned char * array, unsigned int length);
 
 /**
  * @brief Sort the given array
  *
- * Order the content of the given array from largest to smallest chars 
+ * This function takes as input a pointer to a char array and its length and orderits values from largest to smallest char 
  *
- * @param array pointer to an array of chars
- * @param length size of the char array 
+ * @param pointer to an array of chars
+ * @param length of the char array 
  *
  * @return void
  */
-void sort_array(char * array, int length);
+void sort_array(unsigned char * array, unsigned int length);
 
 
 #endif /* __STATS_H__ */

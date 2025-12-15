@@ -12,7 +12,7 @@
  * @file stats.c 
  * @brief Program that Calculates statistics of an array of chars
  *
- * <Add Extended Description Here>
+ * Calculate statistics on an array of chars implementig method of header file stats.h
  *
  * @author Leonardo Pierangelini
  * @date 14-12-2025
@@ -37,7 +37,34 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
-
+  printf("Hello world!!!\n");
 }
 
 /* Add other Implementation File Code Here */
+void print_statistic(unsigned char * array) {
+  return;
+}
+
+void print_array(unsigned char * array, unsigned int length) {
+  return;
+}
+
+unsigned char find_mean(unsigned char * array, unsigned int length){
+  return 0;
+}
+
+unsigned char find_median(unsigned char * array, unsigned int length) {
+  return 0;
+}
+
+unsigned char find_minimum(unsigned char * array, unsigned int length) {
+  return 0;
+}
+
+unsigned char find_maximum(unsigned char * array, unsigned int length) {
+  return 0;
+}
+
+void sort_array(unsigned char * array, unsigned int length) {
+  return;
+}
