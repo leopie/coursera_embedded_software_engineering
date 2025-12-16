@@ -38,7 +38,7 @@
  *
  * @return void
  */
-void print_statistic(unsigned char * array);
+void print_statistic(unsigned char * array, unsigned int length);
 
 /**
  * @brief Prints the given array
@@ -103,7 +103,7 @@ unsigned char find_maximum(unsigned char * array, unsigned int length);
 /**
  * @brief Sort the given array
  *
- * This function takes as input a pointer to a char array and its length and orderits values from largest to smallest char 
+ * This function takes as input a pointer to a char array and its length and order its values from largest to smallest char 
  *
  * @param pointer to an array of chars
  * @param length of the char array 
@@ -112,5 +112,15 @@ unsigned char find_maximum(unsigned char * array, unsigned int length);
  */
 void sort_array(unsigned char * array, unsigned int length);
 
-
+/**
+ * @brief Find the pointer to the array maximum
+ *
+ * This function takes as input a pointer to a char array and its length and find the address of the maximum value for the given array of chars
+ *
+ * @param pointer to an array of chars
+ * @param length of the char array 
+ *
+ * @return a pointer to the address of the maximum element of the array
+  */
+unsigned char * find_maximum_ptr(unsigned char * array, unsigned int length);
 #endif /* __STATS_H__ */
